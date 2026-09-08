@@ -1,0 +1,54 @@
+camera:
+  device_index: 0
+  width: 1280
+  height: 720
+  fps: 30
+  auto_reconnect: true
+
+detection:
+  device: "NPU"
+  model_path: ""
+  confidence_threshold: 0.5
+  interval: 2
+  input_width: 672
+  input_height: 384
+
+tracking:
+  enabled: true
+  max_lost_frames: 25
+  iou_threshold: 0.20
+  min_hits: 1
+  smoothing_factor: 0.65
+  distance_threshold: 1.50
+  preset: "smooth"
+
+anonymization:
+  mode: "blur"
+  blur_strength: 51
+  pixelate_blocks: 12
+  solid_color: [0, 0, 0]
+  expansion: 0.20
+  feather: 15
+
+output:
+  virtual_camera: true
+  preview: true
+  preview_width: 1280
+  preview_height: 720
+
+performance:
+  max_queue_size: 2
+  enable_metrics: true
+  warmup_iterations: 3
+  drop_frames: true
+
+ui:
+  theme: "system"
+  debug_overlay: false
+  show_fps: true
+  show_detections: false
+
+logging:
+  level: "INFO"
+  log_file: null
+  verbose: false

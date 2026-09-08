@@ -1,0 +1,8 @@
+openvino>=2024.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+PySide6>=6.5.0
+pyvirtualcam>=0.10.0
+PyYAML>=6.0
+click>=8.1.0
+psutil>=5.9.0

@@ -1,0 +1,11 @@
+ui:
+  debug_overlay: true
+
+logging:
+  level: "DEBUG"
+  
+detection:
+  show_bounding_boxes: true
+
+performance:
+  show_fps: true

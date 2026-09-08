@@ -1,0 +1,11 @@
+performance:
+  max_queue: 5
+  metrics: false
+  minimal_ui: true
+
+ui:
+  preview: false
+  debug_overlay: false
+
+logging:
+  level: "WARNING"
